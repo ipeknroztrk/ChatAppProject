@@ -1,0 +1,101 @@
+﻿@using EntityLayer.Concrete
+@model List<Message>
+
+@{
+    ViewData["Title"] = "Çöp Kutusu ";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<div class="col-xl-12 col-md-12">
+    <div class="card table-card">
+        <div class="card-header">
+            <h5>Gelen Kutusu</h5>
+            <div class="card-header-right">
+                <ul class="list-unstyled card-option">
+                    <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                    <li><i class="fa fa-window-maximize full-card"></i></li>
+                    <li><i class="fa fa-minus minimize-card"></i></li>
+                    <li><i class="fa fa-refresh reload-card"></i></li>
+                    <li><i class="fa fa-trash close-card"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-tools">
+            <div class="input-group input-group-sm" style="width: 350px;">
+                <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-default">
+                        <i class="ti-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="card-block">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="sort" data-sort="star">#</th>
+                            <th scope="col" class="sort" data-sort="name">Gönderen İsim Soyisim</th>
+                            <th scope="col" class="sort" data-sort="email">Gönderen Maili</th>
+                            <th scope="col" class="sort" data-sort="subject">Konu</th>
+                            <th scope="col" class="sort" data-sort="priority">Öncelik</th>
+                            <th scope="col" class="sort" data-sort="priority">Saat</th>
+                            <th scope="col" class="sort" data-sort="details">Mesaj Detay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="mail-rateing">
+                                        <a href="/Message/ImportantMessages/@item.MessageId">
+                                            <i class="@(item.IsImportant ? "fa fa-star" : "fa fa-star text-warning")"></i>
+                                        </a>
+                                    </td>
+                                    <td>@(item.Sender != null ? item.Sender.Name + " " + item.Sender.Surname : "Gönderen Bilgisi Yok")</td>
+                                    <td>@(item.Sender != null ? item.Sender.Email : "Gönderen E-Posta Bilgisi Yok")</td>
+                                    <td>@item.Subject</td>
+                                    <td>
+                                        <span class="badge bg-@item.Priority.ToString().ToLower()">@(item.Priority)</span>
+                                    </td>
+                                    <td>
+                                        @item.SendDate.ToString("HH:mm")
+                                    </td>
+                                    <td>
+                                        <a href="@Url.Action("MessageDetails", "Message", new { id = item.MessageId })" class="btn btn-outline-primary btn-sm">Mesaj Detay</a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>$(document).ready(function () {
+            // Öncelik renklerini ayarlama
+            $('tbody tr').each(function () {
+                var priority = $(this).find('.badge').text().toLowerCase().trim();
+                switch (priority) {
+                    case 'düşük':
+                        $(this).find('.badge').addClass('bg-success');
+                        break;
+                    case 'orta':
+                        $(this).find('.badge').addClass('bg-warning');
+                        break;
+                    case 'yüksek':
+                        $(this).find('.badge').addClass('bg-danger');
+                        break;
+                    default:
+                        break;
+                }
+            });
+        });</script>
+}

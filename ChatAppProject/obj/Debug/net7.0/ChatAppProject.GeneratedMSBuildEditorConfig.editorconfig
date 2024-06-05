@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ChatAppProject
+build_property.RootNamespace = ChatAppProject
+build_property.ProjectDir = /Users/ipek/Desktop/ChatAppProject/ChatAppProject/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ipek/Desktop/ChatAppProject/ChatAppProject
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Message/ImportantMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVzc2FnZS9JbXBvcnRhbnRNZXNzYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Message/Inbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVzc2FnZS9JbmJveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Message/MessageDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVzc2FnZS9NZXNzYWdlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Message/NewMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVzc2FnZS9OZXdNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Message/SendBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVzc2FnZS9TZW5kQm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Message/TrashMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVzc2FnZS9UcmFzaE1lc3NhZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Shared/Components/UILayoutHeadComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVUlMYXlvdXRIZWFkQ29tcG9uZW50L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Shared/Components/UILayoutNavbarComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVUlMYXlvdXROYXZiYXJDb21wb25lbnQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Shared/Components/UILayoutScriptComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVUlMYXlvdXRTY3JpcHRDb21wb25lbnQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Shared/Components/UILayoutSideBarComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVUlMYXlvdXRTaWRlQmFyQ29tcG9uZW50L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/UILayout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVUlMYXlvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/UserUpdate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclVwZGF0ZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/ChatAppProject/ChatAppProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

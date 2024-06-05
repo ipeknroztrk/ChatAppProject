@@ -1,0 +1,80 @@
+﻿@model ChatAppProject.Models.UserUpdateView
+
+@{
+    ViewData["Title"] = "Kullanıcı";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Identity Mesajlaşma Uygulaması</title>
+    <link rel="icon" href="~/argon-dashboard-master/argon-dashboard-master/assets/img/brand/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="stylesheet" href="~/argon-dashboard-master/argon-dashboard-master/assets/vendor/nucleo/css/nucleo.css" type="text/css">
+    <link rel="stylesheet" href="~/argon-dashboard-master/argon-dashboard-master/assets/vendor/fortawesome/fontawesome-free/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="~/argon-dashboard-master/argon-dashboard-master/assets/css/argon.css?v=1.2.0" type="text/css">
+</head>
+
+<body style="background-color: #f8f9fe;">
+    <div class="container mt-5">
+        <div class="row justify-content-start">
+            <div class="col-lg-6 col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="text-primary">Kullanıcı Bilgilerini Güncelle</h3>
+                    </div>
+                    <div class="card-body">
+                        <form class="forms-sample" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="exampleInputName1">Adınız</label>
+                                <input type="text" asp-for="Name" class="form-control" id="exampleInputName1" placeholder="Ad">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName1">Soyadınız</label>
+                                <input type="text" asp-for="Surname" class="form-control" id="exampleInputName1" placeholder="Soyad">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName1">Kullanıcı Adı</label>
+                                <input type="text" asp-for="UserName" class="form-control" id="exampleInputName1" placeholder="Kullanıcı adı">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName1">Mail Adresi</label>
+                                <input type="email" asp-for="Email" class="form-control" id="exampleInputName1" placeholder="Mail Adresi">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName1">Resim Uzantısı</label>
+                                <input type="text" asp-for="ImageUrl" class="form-control" id="exampleInputName1" placeholder="Resim Uzantısı">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword4">Eski Şifreniz</label>
+                                <input type="password" asp-for="OldPassword" class="form-control" id="exampleInputPassword4" placeholder="Eski Şifreniz">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword4">Yeni Şifreniz</label>
+                                <input type="password" asp-for="Password" class="form-control" id="exampleInputPassword4" placeholder="Yeni Şifreniz">
+                            </div>
+
+                            <div class="text-right">
+                                <button type="submit" class="btn btn-primary"><i class="ti-reload"></i> Güncelle</button>
+                                <button type="reset" class="btn btn-secondary"><i class="ti-close"></i> İptal</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/argon-dashboard-master/argon-dashboard-master/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="~/argon-dashboard-master/argon-dashboard-master/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/argon-dashboard-master/argon-dashboard-master/assets/vendor/js-cookie/js.cookie.js"></script>
+    <script src="~/argon-dashboard-master/argon-dashboard-master/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="~/argon-dashboard-master/argon-dashboard-master/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+    <script src="~/argon-dashboard-master/argon-dashboard-master/assets/js/argon.js?v=1.2.0"></script>
+</body>
+
+</html>

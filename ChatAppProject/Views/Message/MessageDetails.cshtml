@@ -1,0 +1,74 @@
+﻿@model EntityLayer.Concrete.Message
+
+@{
+    ViewData["Title"] = "UserSetting";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<div class="main-content" id="panel">
+    <!-- Topnav -->
+    <!-- Header -->
+    <!-- Header -->
+
+    <div class="container-fluid">
+        <div class="header-body">
+            <div class="row align-items-center py-4">
+            </div>
+        </div>
+    </div>
+
+    <!-- Page content -->
+
+    <div class="container-fluid mt--12">
+        <!-- Dark table -->
+        <div class="row">
+            <div class="col">
+                <div class="card shadow">
+                    <div class="card-header bg-transparent border-0">
+                        <h4 class="mb-0">Gelen Mesaj Detayı</h4>
+                    </div>
+                    <div class="table-responsive" style="overflow-x: auto;">
+                        <table class="table align-items-center table-flush" style="width: 100%;">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col" class="sort" data-sort="name">Kişi</th>
+                                    <th scope="col" class="sort" data-sort="status">Konu</th>
+                                </tr>
+                            </thead>
+                            <tbody class="list">
+                                <tr>
+                                    <th scope="row">
+                                        <div class="media align-items-center">
+                                            <a href="#" class="avatar rounded-circle mr-3">
+                                                <img alt="Image placeholder" src="@Model.ImageUrl" style="width: 40px; height: 40px;">
+                                            </a>
+                                        </div>
+                                    </th>
+                                    <td class="budget">
+                                        @Model.Subject
+                                    </td>
+                                </tr>
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col" class="sort" data-sort="name">İçerik</th>
+                                    <th scope="col" class="sort" data-sort="name"></th>
+                                    <th scope="col" class="sort" data-sort="name"></th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <!-- Yeni satır -->
+                                <td colspan="3">
+                                    <!-- colspan="3", satırın tüm sütunlarını kaplayacak şekilde ayarlanmıştır -->
+                                    <textarea class="form-control" rows="6">@Model.Content</textarea>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+    </div>
+</div>
+

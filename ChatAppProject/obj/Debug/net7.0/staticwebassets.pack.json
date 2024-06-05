@@ -1,0 +1,1061 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/.DS_Store",
+      "PackagePath": "staticwebassets/mega-able-lite/.DS_Store"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/accordion.html",
+      "PackagePath": "staticwebassets/mega-able-lite/accordion.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/.DS_Store",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/.DS_Store",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/animate.css/.DS_Store",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/animate.css/.DS_Store"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/animate.css/css/animate.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/animate.css/css/animate.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/bootstrap/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/bootstrap/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/chartist/chartist.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/chartist/chartist.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/ionicons.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/ionicons.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/morris.js/css/morris.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/morris.js/css/morris.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/css/style.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/css/style.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/HELP-US-OUT.txt"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/css/font-awesome.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/css/font-awesome.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/animated.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/animated.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/bordered-pulled.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/bordered-pulled.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/core.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/core.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/fixed-width.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/fixed-width.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/font-awesome.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/font-awesome.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/icons.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/icons.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/larger.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/larger.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/list.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/list.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/mixins.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/mixins.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/path.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/path.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/rotated-flipped.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/rotated-flipped.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/screen-reader.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/screen-reader.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/stacked.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/stacked.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/less/variables.less",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/less/variables.less"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_animated.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_animated.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_bordered-pulled.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_bordered-pulled.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_core.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_core.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_fixed-width.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_fixed-width.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_icons.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_icons.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_larger.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_larger.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_list.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_list.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_mixins.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_mixins.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_path.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_path.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_rotated-flipped.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_rotated-flipped.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_screen-reader.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_screen-reader.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_stacked.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_stacked.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/_variables.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/_variables.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/font-awesome.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/font-awesome.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/font-awesome.css.map",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/font-awesome.css.map"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/font-awesome/scss/font-awesome.scss",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/font-awesome/scss/font-awesome.scss"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/icofont/css/icofont.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/icofont/css/icofont.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/icofont/fonts/icofont.eot",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/icofont/fonts/icofont.eot"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/icofont/fonts/icofont.svg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/icofont/fonts/icofont.svg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/icofont/fonts/icofont.ttf",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/icofont/fonts/icofont.ttf"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/icofont/fonts/icofont.woff",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/icofont/fonts/icofont.woff"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/themify-icons/fonts/themify.eot",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/themify-icons/fonts/themify.eot"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/themify-icons/fonts/themify.svg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/themify-icons/fonts/themify.svg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/themify-icons/fonts/themify.ttf",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/themify-icons/fonts/themify.ttf"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/themify-icons/fonts/themify.woff",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/themify-icons/fonts/themify.woff"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/icon/themify-icons/themify-icons.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/icon/themify-icons/themify-icons.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/Thumbs.db",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/Thumbs.db"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/auth/Logo-small-bottom.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/auth/Logo-small-bottom.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/auth/Thumbs.db",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/auth/Thumbs.db"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/auth/logo-dark.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/auth/logo-dark.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/auth/logo.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/auth/logo.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/avatar-1.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/avatar-1.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/avatar-2.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/avatar-2.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/avatar-3.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/avatar-3.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/avatar-4.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/avatar-4.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/avatar-5.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/avatar-5.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/avatar-blank.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/avatar-blank.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/blog-130.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/blog-130.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/blog-r-1.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/blog-r-1.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/blog-r-2.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/blog-r-2.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/blog-r-3.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/blog-r-3.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/blog-single-1.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/blog-single-1.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/blog-single.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/blog-single.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/blog-small-bg-1.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/blog-small-bg-1.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/st_gallery1.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/st_gallery1.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/st_gallery2.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/st_gallery2.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/blog/st_gallery3.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/blog/st_gallery3.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/browser/chrome.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/browser/chrome.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/browser/firefox.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/browser/firefox.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/browser/ie.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/browser/ie.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/browser/opera.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/browser/opera.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/browser/safari.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/browser/safari.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/details_close.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/details_close.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/details_open.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/details_open.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/faq_man.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/faq_man.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/favicon.ico",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/favicon.ico"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/logo-blue.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/logo-blue.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/logo-compact.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/logo-compact.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/logo.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/logo.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/mCSB_buttons.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/mCSB_buttons.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/mega-menu/01.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/mega-menu/01.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/mega-menu/02.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/mega-menu/02.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/mega-menu/03.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/mega-menu/03.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/select-arrow.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/select-arrow.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/tooltip/Euclid.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/tooltip/Euclid.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/tooltip/shape1.svg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/tooltip/shape1.svg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/tooltip/tooltip1.svg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/tooltip/tooltip1.svg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/user-bg.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/user-bg.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/AUSTRALIA.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/AUSTRALIA.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/BRAZIL.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/BRAZIL.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/DIGITALPEN.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/DIGITALPEN.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/GERMANY.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/GERMANY.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/IPAD.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/IPAD.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/PHONE1.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/PHONE1.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/PHONE2.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/PHONE2.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/PHONE3.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/PHONE3.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/PHONE4.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/PHONE4.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/TABLET.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/TABLET.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/UK.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/UK.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/USA.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/USA.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/prod1.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/prod1.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/prod2.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/prod2.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/prod3.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/prod3.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/prod4.jpg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/prod4.jpg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/wather2bottom.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/wather2bottom.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/wather2m.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/wather2m.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/wather2star1.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/wather2star1.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/wather2star2.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/wather2star2.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/watherbottom.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/watherbottom.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/wathernature.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/wathernature.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/watherstar1.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/watherstar1.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/images/widget/watherstar2.png",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/images/widget/watherstar2.png"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/SmoothScroll.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/SmoothScroll.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/bootstrap-growl.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/bootstrap/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/chart.js/Chart.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/chart.js/Chart.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/common-pages.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/common-pages.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/jquery-slimscroll/jquery.slimscroll.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/jquery-slimscroll/jquery.slimscroll.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/jquery-ui/jquery-ui.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/jquery-ui/jquery-ui.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/jquery/jquery.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/jquery/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/modernizr/css-scrollbars.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/modernizr/css-scrollbars.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/modernizr/modernizr.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/modernizr/modernizr.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/morris-custom-chart.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/morris-custom-chart.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/morris.js/morris.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/morris.js/morris.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/pcoded.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/pcoded.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/popper.js/popper.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/popper.js/popper.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/raphael/raphael.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/raphael/raphael.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/script.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/script.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/script.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/script.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/js/vertical-layout.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/js/vertical-layout.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/accordion/accordion.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/accordion/accordion.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/accordion/accordion.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/accordion/accordion.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/amchart/css/amchart.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/amchart/css/amchart.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/amchart/css/export.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/amchart/css/export.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/amchart/js/amcharts.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/amchart/js/amcharts.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/amchart/js/custom-amchart.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/amchart/js/custom-amchart.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/amchart/js/export.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/amchart/js/export.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/amchart/js/images/dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/amchart/js/images/dragIconRoundBig.svg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/amchart/js/images/dragIconRoundBigH.svg",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/amchart/js/images/dragIconRoundBigH.svg"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/amchart/js/light.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/amchart/js/light.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/amchart/js/serial.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/amchart/js/serial.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/dashboard/custom-dashboard.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/dashboard/custom-dashboard.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/google-maps/gmaps.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/google-maps/gmaps.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/google-maps/google-maps.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/google-maps/google-maps.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/icon-modal.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/icon-modal.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/notification/notification.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/notification/notification.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/notification/notification.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/notification/notification.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/todo/todo.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/todo/todo.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/waves/css/waves.min.css",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/waves/css/waves.min.css"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/waves/js/waves.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/waves/js/waves.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/amcharts.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/amcharts.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/amcharts.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/amcharts.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/export.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/export.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/gauge.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/gauge.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/gauge.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/gauge.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/light.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/light.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/light.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/light.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/pie.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/pie.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/pie.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/pie.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/serial.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/serial.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/amchart/serial.min.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/amchart/serial.min.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/assets/pages/widget/excanvas.js",
+      "PackagePath": "staticwebassets/mega-able-lite/assets/pages/widget/excanvas.js"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/auth-normal-sign-in.html",
+      "PackagePath": "staticwebassets/mega-able-lite/auth-normal-sign-in.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/auth-sign-up.html",
+      "PackagePath": "staticwebassets/mega-able-lite/auth-sign-up.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/breadcrumb.html",
+      "PackagePath": "staticwebassets/mega-able-lite/breadcrumb.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/bs-basic-table.html",
+      "PackagePath": "staticwebassets/mega-able-lite/bs-basic-table.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/button.html",
+      "PackagePath": "staticwebassets/mega-able-lite/button.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/chart.html",
+      "PackagePath": "staticwebassets/mega-able-lite/chart.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/color.html",
+      "PackagePath": "staticwebassets/mega-able-lite/color.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/form-elements-component.html",
+      "PackagePath": "staticwebassets/mega-able-lite/form-elements-component.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/icon-themify.html",
+      "PackagePath": "staticwebassets/mega-able-lite/icon-themify.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/index.html",
+      "PackagePath": "staticwebassets/mega-able-lite/index.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/label-badge.html",
+      "PackagePath": "staticwebassets/mega-able-lite/label-badge.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/map-google.html",
+      "PackagePath": "staticwebassets/mega-able-lite/map-google.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/notification.html",
+      "PackagePath": "staticwebassets/mega-able-lite/notification.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/progress-bar.html",
+      "PackagePath": "staticwebassets/mega-able-lite/progress-bar.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/sample-page.html",
+      "PackagePath": "staticwebassets/mega-able-lite/sample-page.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/tabs.html",
+      "PackagePath": "staticwebassets/mega-able-lite/tabs.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/tooltip.html",
+      "PackagePath": "staticwebassets/mega-able-lite/tooltip.html"
+    },
+    {
+      "Id": "/Users/ipek/Desktop/ChatAppProject/ChatAppProject/wwwroot/mega-able-lite/typography.html",
+      "PackagePath": "staticwebassets/mega-able-lite/typography.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.ChatAppProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.ChatAppProject.props",
+      "PackagePath": "build\\ChatAppProject.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ChatAppProject.props",
+      "PackagePath": "buildMultiTargeting\\ChatAppProject.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ChatAppProject.props",
+      "PackagePath": "buildTransitive\\ChatAppProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

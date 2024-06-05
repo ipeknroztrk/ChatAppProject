@@ -1,0 +1,160 @@
+﻿@using EntityLayer.Concrete
+@model List<Message>
+
+
+
+@{
+    ViewData["Title"] = "Gelen Kutusu";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+
+
+<div class="col-xl-12 col-md-12">
+    <div class="card table-card">
+        <div class="card-header">
+            <h5>Gelen Kutusu</h5>
+            <div class="card-header-right">
+                <ul class="list-unstyled card-option">
+                    <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                    <li><i class="fa fa-window-maximize full-card"></i></li>
+                    <li><i class="fa fa-minus minimize-card"></i></li>
+                    <li><i class="fa fa-refresh reload-card"></i></li>
+                    <li><i class="fa fa-trash close-card"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-tools">
+            <div class="input-group input-group-sm" style="width: 350px;">
+                <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-default">
+                        <i class="ti-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="card-block">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="sort" data-sort="star">#</th>
+                            <th scope="col" class="sort" data-sort="name">Gönderen İsim Soyisim</th>
+                            <th scope="col" class="sort" data-sort="email">Gönderen Maili</th>
+                            <th scope="col" class="sort" data-sort="subject">Konu</th>
+
+                            <th scope="col" class="sort" data-sort="priority">Öncelik</th>
+                            <th scope="col" class="sort" data-sort="priority">Saat</th>
+                            <th scope="col" class="sort" data-sort="details">Mesaj Detay</th>
+                            <th scope="col" class="sort" data-sort="details">Çöp </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    
+                                    <td class="mail-rateing">
+                                        <a href="/Message/MakeImportant/@item.MessageId">
+                                            <i class=" @(item.IsImportant ? "fa fa-star " :"fa fa-star ")"></i>
+                                        </a>
+
+                                    </td>
+                                    <td>@(item.Sender != null ? item.Sender.Name + " " + item.Sender.Surname : "Gönderen Bilgisi Yok")</td>
+
+                                    <td>@(item.Sender != null ? item.Sender.Email : "Gönderen E-Posta Bilgisi Yok")</td>
+                                    <td>@item.Subject</td>
+
+                                    <td>
+                                        <span class="badge bg-@item.Priority.ToString().ToLower()">@(item.Priority)</span>
+                                    </td>
+                                    <td>
+                                        @item.SendDate.ToString("HH:mm")
+                                    </td>
+                                    <td>
+                                        <a href="@Url.Action("MessageDetails", "Message", new { id = item.MessageId })" class="btn btn-outline-primary btn-sm">Mesaj Detay</a>
+
+                                    </td>
+                                    <td class="budget">
+                                        <a class="btn btn-outline-danger btn-sm" href="/Message/DeleteReceivedMessages/@item.MessageId">Sil</a>
+                                    </td>
+
+
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>function showSuccessPopup(messageId) {
+            Swal.fire({
+                title: 'Başarılı!',
+                text: 'Mesaj Çöp Kutusuna Taşınıyor.',
+                icon: 'warning',
+                confirmButtonText: 'Tamam',
+                didClose: () => {
+                    // SweetAlert popup'ı kapatıldığında,yönlendirme yap
+                    window.location.href = '/Message/DeleteMessage/' + messageId; // Yönlendirilecek sayfanın URL'si
+                }
+            });
+
+}
+        $('tbody tr').each(function () {
+            var priority = $(this).find('.badge').text().toLowerCase();
+            switch (priority) {
+                case 'düşük':
+                    $(this).find('.badge').addClass('bg-success');
+                    break;
+                case 'orta':
+                    $(this).find('.badge').addClass('bg-warning');
+                    break;
+                case 'yüksek':
+                    $(this).find('.badge').addClass('bg-danger');
+                    break;
+                default:
+                    break;
+            }
+        });
+        $(document).ready(function () {
+            // Yıldız simgesi veya bağlantıya tıklama işlemini ele al (daha geniş hedef alan için)
+            $('.star-toggle').click(function (event) {
+                event.preventDefault(); // Gerekirse varsayılan bağlantı davranışını önle
+
+                var messageId = $(this).data('message-id'); // Mesaj ID'sini veri özelliğinden al
+
+                // Yıldız simgesini görsel olarak güncelle (stil değişiklikleri için CSS kullanmayı düşünün)
+                $(this).find('i.fa-star').toggleClass('text-warning');
+
+                // 'Önemli' bayrağını değiştirmek için AJAX isteği gönder (gerçek mantığınızla değiştirin)
+                // $.ajax({
+                //   url: '/Message/ToggleImportant', // Arka uç uygulamanıza göre URL'yi ayarlayın
+                //   type: 'POST',
+                //   data: { messageId: messageId },
+                //   success: function(response) {
+                //     // Başarılı yanıtı ele al (örneğin, mesaj listesini güncelle, başarı mesajı göster)
+                //   },
+                //   error: function(error) {
+                //     // Hatayı ele al (örneğin, hata mesajı göster)
+                //   }
+                // });
+
+                // İsteğe bağlı olarak, yıldızlı mesajlar görünümüne git (gerekirse URL'yi değiştir)
+                window.location.href = '/Messages/MakeImportant/'; // Yıldızlı mesajlar için farklı bir rota kullanmayı düşünün
+            });
+        });
+
+
+    </script>
+
+}

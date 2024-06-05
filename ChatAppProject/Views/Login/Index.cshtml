@@ -1,0 +1,95 @@
+﻿@model ChatAppProject.Models.LoginAppUser
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Giriş Yap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Add your other meta tags and links here -->
+
+    <link rel="stylesheet" type="text/css" href="~/mega-able-lite/assets/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/mega-able-lite/assets/css/style.css">
+</head>
+
+<body themebg-pattern="theme1">
+    <section class="login-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="md-float-material form-material" method="post" asp-action="Index" asp-controller="Login">
+
+                        <div class="text-center">
+                            <img src="~/mega-able-lite/assets/images/logo.png" alt="logo.png">
+                        </div>
+                        <div class="auth-box card">
+                            <div class="card-block">
+                                <div class="row m-b-20">
+                                    <div class="col-md-12">
+                                        <h3 class="text-center txt-primary">Giriş Yap</h3>
+                                    </div>
+                                </div>
+                                <div class="form-group form-primary">
+                                    <input type="text" asp-for="Email" class="form-control" required="">
+                                    <span asp-validation-for="Email" class="form-bar"></span>
+                                    <label class="float-label">Email</label>
+                                </div>
+                                <div class="form-group form-primary">
+                                    <input type="password" asp-for="Password" class="form-control" required="">
+                                    <span asp-validation-for="Password" class="form-bar"></span>
+                                    <label class="float-label">Şifre</label>
+                                </div>
+                                <div class="row m-t-25 text-left">
+                                    <div class="col-md-12">
+                                        <div class="checkbox-fade fade-in-primary">
+                                            <label>
+                                                <input type="checkbox" value="">
+                                                <span class="cr"><i class="cr-icon icofont icofont-ui-check txt-primary"></i></span>
+                                                <span class="text-inverse"> <a href="#">Şartları &amp; Koşulları</a> okudum ve kabul ediyorum.</span>
+                                            </label>
+                                        </div>
+                                        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                                    </div>
+
+                                </div>
+                                <div class="row m-t-30">
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20">Giriş Yap</button>
+                                    </div>
+                                </div>
+
+                                <hr />
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="text-center">
+                                            <a href="/Register/Index">Kayıt Ol</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Required Jquery -->
+    <script type="text/javascript" src="~/mega-able-lite/assets/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="~/mega-able-lite/assets/js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="~/mega-able-lite/assets/js/popper.js/popper.min.js"></script>
+    <script type="text/javascript" src="~/mega-able-lite/assets/js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/mega-able-lite/assets/pages/waves/js/waves.min.js"></script>
+    <script type="text/javascript" src="~/mega-able-lite/assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="~/mega-able-lite/assets/js/SmoothScroll.js"></script>
+    <script src="~/mega-able-lite/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+</body>
+
+</html>

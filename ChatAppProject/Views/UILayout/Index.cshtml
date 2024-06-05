@@ -1,0 +1,38 @@
+﻿
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+@await Component.InvokeAsync("UILayoutHeadComponent")
+
+
+
+<body>
+
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+            @await Component.InvokeAsync("UILayoutNavbarComponent")
+
+            @await Component.InvokeAsync("UILayoutSideBarComponent")
+
+            @RenderBody()
+          
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    @await Component.InvokeAsync("UILayoutScriptComponent")
+   
+    @RenderSection("Scripts", required: false)
+
+
+
+</body>
+
+</html>

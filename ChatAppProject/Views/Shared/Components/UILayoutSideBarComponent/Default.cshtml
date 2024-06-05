@@ -1,0 +1,120 @@
+﻿<div class="pcoded-main-container">
+    <div class="pcoded-wrapper">
+        <nav class="pcoded-navbar">
+            <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+            <div class="pcoded-inner-navbar main-menu">
+                <div class="">
+                    <div class="main-menu-header">
+                        <img class="img-80 img-radius" src="@ViewBag.v1" alt="User-Profile-Image">
+                        <div class="user-details">
+                            <span id="more-details">@ViewBag.v2<i class="fa fa-caret-down"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="main-menu-content">
+                        <ul>
+                            <li class="more-details">
+                                <a href="user-profile.html"><i class="ti-user"></i>Profili Görüntüle </a>
+                                <a href="#!"><i class="ti-settings"></i>Ayarlar</a>
+                                <a href="auth-normal-sign-in.html"><i class="ti-layout-sidebar-left"></i>Çıkış Yap</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="p-15 p-b-0">
+                    <form class="form-material">
+                        <div class="form-group form-primary">
+                            <input type="text" name="footer-email" class="form-control" required="">
+                            <span class="form-bar"></span>
+                            <label class="float-label"><i class="fa fa-search m-r-10"></i>Arama Yap </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Mesaj İşlemleri</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a href="/Message/NewMessage/" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-pencil-alt"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">+ Yeni Mesaj </span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Message/Inbox/" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Gelen Kutusu </span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Message/SendBox/" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-export"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Gönderilen Mesajlar </span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Message/ImportantMessages/" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-star"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Yıldızlı Mesajlar  </span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Message/TrashMessages/" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-trash"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Çöp Kutusu  </span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Kullanıcı İşlemleri</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a href="/UserUpdate/Index/" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-user"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Bilgi Güncelleme </span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="~/mega-able-lite/form-elements-component.html" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-settings"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Çıkış Yap </span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+
+                </ul>
+
+
+
+
+            </div>
+        </nav>
+
+        <div class="pcoded-content">
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <div class="page-header-title">
+                                <h5 class="m-b-10">Ana Sayfa </h5>
+                                <p class="m-b-0">Hoşgeldin @ViewBag.v2 </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="breadcrumb-title">
+                                <li class="breadcrumb-item">
+                                    <a href="~/mega-able-lite/index.html"> <i class="fa fa-home"></i> </a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#!">Ana Menü</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>

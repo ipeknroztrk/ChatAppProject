@@ -1,0 +1,106 @@
+﻿@using EntityLayer.Concrete
+@model List<Message>
+
+@{
+    ViewData["Title"] = "Gelen Kutusu";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<div class="col-xl-12 col-md-12">
+    <div class="card table-card">
+        <div class="card-header">
+            <h5>Yıldızlı Mesajlar </h5>
+            <div class="card-header-right">
+                <ul class="list-unstyled card-option">
+                    <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                    <li><i class="fa fa-window-maximize full-card"></i></li>
+                    <li><i class="fa fa-minus minimize-card"></i></li>
+                    <li><i class="fa fa-refresh reload-card"></i></li>
+                    <li><i class="fa fa-trash close-card"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-block">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="sort" data-sort="star">#</th>
+                            <th scope="col" class="sort" data-sort="name"> İsim Soyisim</th>
+                            <th scope="col" class="sort" data-sort="email"> Mail</th>
+                            <th scope="col" class="sort" data-sort="subject">Konu</th>
+                            <th scope="col" class="sort" data-sort="priority">Öncelik</th>
+                            <th scope="col" class="sort" data-sort="details">Mesaj Detay</th>
+                            <th scope="col" class="sort" data-sort="details">Çöp </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="chk-option">
+                                            <div class="checkbox-fade fade-in-primary">
+                                                <label class="check-task">
+                                                    <i class=" @(item.IsImportant ? "fa fa-star text-warning" : "fa fa-star text-warning")"></i>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>@(item.Sender != null ? item.Sender.Name + " " + item.Sender.Surname : "Gönderen Bilgisi Yok")</td>
+                                    <td>@(item.Sender != null ? item.Sender.Email : "Gönderen E-Posta Bilgisi Yok")</td>
+                                    <td>@item.Subject</td>
+                                    <td >
+                                        <span class="badge bg-@item.Priority.ToString()">@(item.Priority)</span>
+                                    </td>
+                                    <td>
+                                        <a href="@Url.Action("MessageDetails", "Message", new { id = item.MessageId })" class="btn btn-outline-primary btn-sm">Mesaj Detay</a>
+                                    </td>
+                                    <td class="budget">
+                                        <a class="btn btn-outline-danger btn-sm" href="/Message/DeleteReceivedMessages/@item.MessageId">Sil</a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+                <div class="text-right m-r-20">
+                    <a href="@Url.Action("AllMessages", "Message")" class="b-b-primary text-primary">Gelen Tüm Mesajları Gör</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Yıldız simgesine tıklama
+        $('[id^="star-"]').click(function () {
+            var messageId = $(this).attr('id').split('-')[1];
+            // Yıldıza tıklandığında yıldızlı mesajlara yönlendirme
+            window.location.href = '@Url.Action("StarredMessages", "Message")?messageId=' + messageId;
+        });
+
+        $(document).ready(function () {
+            // Öncelik renklerini ayarlama
+            $('tbody tr').each(function () {
+                var priority = $(this).find('.badge').text();
+                switch (priority.toUpperCase()) {
+                    case 'DÜŞÜK':
+                        $(this).find('.badge').addClass('bg-success');
+                        break;
+                    case 'ORTA':
+                        $(this).find('.badge').addClass('bg-warning');
+                        break;
+                    case 'YÜKSEK':
+                        $(this).find('.badge').addClass('bg-danger');
+                        break;
+                    default:
+                        break;
+                }
+            });
+        });
+    </script>
+}
